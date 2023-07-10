@@ -148,3 +148,25 @@
 
 /* end style of instragram */
 
+.flowers-title{
+    padding-top: 120px;
+}
+.flowers-title-description{
+    padding-bottom: 20px;
+}
+.search-email{
+    padding: 20px 150px;
+    margin-right: 10px;
+}
+
+.search-box{
+    width: 50%;
+    margin: auto;
+}
+
+.footer{
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+
+}
