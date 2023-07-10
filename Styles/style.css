@@ -57,9 +57,15 @@
 }
 .flowers-container{
     display: flex;
-    padding:  40px 20%;
-    position: relative;
-    gap: 24px;
+    width: 1440px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 6%;
+    margin-left: 7%;
+    padding-top: 32px;
+    padding-right: 4%;
+    gap: 25px;
+
 }
 .flowers-type1{
     background-color: rgba(167,33,98,0.1);
@@ -74,24 +80,25 @@
     border-radius: 300px 300px 0px 0px;
 }
 
-.pngwing-img{
-    width: 370px;
-    margin: auto;
+.flower-tree{
+    padding: 20px 0px;
+    text-align: center;
 }
+
+
+
+.pngwing-img{
+    width: 464px;
+    height: 540px;
+}
+
 .flowers2{
     padding-top: 50%;
+    padding-bottom: 0px;
 }
 
 .flowers1{
     padding-top: 12%;
-}
-
-.flower-tree{
-    display: flex;
-    padding: 0px 435px;
-    gap: 220px;
-    padding-bottom: 50px;
-    list-style: none;
 }
 
 /* end the style of .flowers-container */
@@ -104,8 +111,7 @@
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
     justify-content: space-around;
-    margin-left: 240px;
-    margin-bottom: 50px;
+    margin: 60px 240px;
 }
 
 .hot-deal-heading{
@@ -125,10 +131,10 @@
 
 .hot-deal-container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 400px;
-    gap: 100px;
     height: 620px;
+    gap: 100px;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
 }
@@ -166,7 +172,32 @@
 
 .footer{
     background-color: #111010;
-    width: 1922px;
-    height: 449px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 80px;
+}
 
+.copyright{
+    margin-top: 20px;
+}
+
+.footer-header{
+    font-size: 48px;
+    font-weight: 800px;
+    padding-bottom: 20px;
+}
+
+span{
+    color: #E55473;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
 }
