@@ -34,6 +34,8 @@
     border-radius: 8px;
     padding: 20px 43px;
     border: none;
+    color: white;
+    font-size: 18px;
 }
 
 /* end of banner section style */
@@ -55,7 +57,7 @@
 }
 .flowers-container{
     display: flex;
-    padding:  40px 22%;
+    padding:  40px 20%;
     position: relative;
     gap: 24px;
 }
@@ -84,4 +86,24 @@
     padding-top: 12%;
 }
 
+.flower-tree{
+    display: flex;
+    padding: 0px 435px;
+    gap: 220px;
+    padding-bottom: 50px;
+    list-style: none;
+}
+
 /* end the style of .flowers-container */
+
+.delivery-container{
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-bottom: 50px;
+}
