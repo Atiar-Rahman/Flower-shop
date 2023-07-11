@@ -20,7 +20,7 @@
 
 .banner-title{
     color: #272727;
-    font-size: 80px;
+    font-size: 110px;
     font-weight: 800;
 }
 .banner-description{
@@ -57,54 +57,44 @@
 }
 .flowers-container{
     display: flex;
-    width: 1440px;
-    justify-content: space-around;
+    width: 1920px;
+    height: 840px;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 6%;
-    margin-left: 7%;
-    padding-top: 32px;
-    padding-right: 4%;
-    gap: 25px;
-    height: 600px;
-
 }
+
+
 .flowers-type1{
     background-color: rgba(167,33,98,0.1);
     border-radius: 300px 300px 0px 0px;
-    height: 538px;
-    width: 464px;
+    height: 700px;
+    width: 564px;
 }
 .flowers-type2{
     background-color: rgba(5,151,160,0.15);
     border-radius: 300px 300px 0px 0px;
-    height: 538px;
-    width: 464px;
+    height: 700px;
+    width: 564px;
 }
 .flowers-type3{
     background-color: rgba(71,125,17,0.15);
     border-radius: 300px 300px 0px 0px;
-    height: 538px;
-    width: 464px;
+    height: 700px;
+    width: 564px;
 }
 .pngwing-img{
-    padding: 106px 75px 0px 75px;
+    padding: 265px 75px 0px 75px;
 }
 .flower3{
-    padding-top: 104px;
+    padding-top: 260px;
 }
 
 .flower-tree{
-    padding: 20px 0px;
+    padding: 40px 0px;
     text-align: center;
 }
 
 
-
-/* .pngwing-img{
-    width: 464px;
-    height: 540px;
-    align-items: center;
-} */
 
 .flowers2{
     padding-top: 50%;
@@ -122,7 +112,8 @@
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
     justify-content: space-around;
-    margin: 60px 240px;
+    padding: 60px 240px;
+    margin-bottom: 100px;
 }
 
 .delivery-item{
@@ -133,6 +124,14 @@
     color: rgba(39,39,39,0.80);
     font-size: 24px;
     font-weight: 600;
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
 }
 
 .hot-deal-heading{
