@@ -20,7 +20,7 @@
 
 .banner-title{
     color: #272727;
-    font-size: 110px;
+    font-size: 80px;
     font-weight: 800;
 }
 .banner-description{
@@ -57,8 +57,9 @@
 }
 .flowers-container{
     display: flex;
-    width: 1920px;
-    height: 840px;
+    width: 1500px;
+    height: 800px;
+    gap: 25px;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,26 +68,26 @@
 .flowers-type1{
     background-color: rgba(167,33,98,0.1);
     border-radius: 300px 300px 0px 0px;
-    height: 700px;
-    width: 564px;
+    height: 600px;
+    width: 464px;
 }
 .flowers-type2{
     background-color: rgba(5,151,160,0.15);
     border-radius: 300px 300px 0px 0px;
-    height: 700px;
-    width: 564px;
+    height: 600px;
+    width: 464px;
 }
 .flowers-type3{
     background-color: rgba(71,125,17,0.15);
     border-radius: 300px 300px 0px 0px;
-    height: 700px;
-    width: 564px;
+    height: 600px;
+    width: 464px;
 }
 .pngwing-img{
-    padding: 265px 75px 0px 75px;
+    padding: 160px 75px 0px 75px;
 }
 .flower3{
-    padding-top: 260px;
+    padding-top: 150px;
 }
 
 .flower-tree{
@@ -106,7 +107,7 @@
 
 .delivery-container{
     display: flex;
-    width: 1440px;
+    width: 1050px;
     height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -130,8 +131,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin: auto;
 }
 
 .hot-deal-heading{
@@ -165,15 +164,18 @@
 
 .rose-flower{
     display: flex;
+    width: 1440px;
+    justify-content: center;
     align-items: center;
     position: relative;
     padding: 20px 240px;
-    gap: 24px;
+    gap: 15px;
 }
 
-
 /* end style of instragram */
-
+.deals-container{
+    width: 1440px;
+}
 .flowers-title{
     padding-top: 120px;
 }
@@ -183,6 +185,7 @@
     font-size: 16px;
     font-weight: 400;
 }
+
 .search-email{
     width: 500px;
     height: 64px;
